@@ -387,9 +387,13 @@ function updateUI() {
 	 $("#winampWindow").removeClass('playing');
 	}	
 }
+
+
+
+
 var nth = 3;
 var songLength = 0;
-var audio = new Audio src=("https://ssukla.github.io/windows-xp/songs/High.mp3");
+var audio = new Audio('/songs/High.mp3');
 function playSound(meik) {
 	audio = new Audio('songs/' + meik);
 	audio.play();
