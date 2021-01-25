@@ -388,7 +388,7 @@ function updateUI() {
 }
 var nth = 3;
 var songLength = 0;
-var audio = new Audio('songs/High-Quality Bass Music - Free Listening on SoundCloud.mp3');
+var audio = new Audio('/songs/High.mp3');
 function playSound(meik) {
 	audio = new Audio('songs/' + meik);
 	audio.play();
