@@ -389,7 +389,7 @@ function updateUI() {
 }
 var nth = 3;
 var songLength = 0;
-var audio = new Audio('/songs/High-Quality%20Bass%20Music%20-%20Free%20Listening%20on%20SoundCloud.mp3');
+var audio = new Audio('/songs/High.mp3');
 function playSound(meik) {
 	audio = new Audio('songs/' + meik);
 	audio.play();
