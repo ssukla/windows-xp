@@ -196,7 +196,7 @@ $(document).ready(function () {
     });
 	$('#run_open').keypress(function(e) {
 		if(e.which == 13) {
-			fullScreenIframebenOpen("https://geekprank.com/fake-dos/");
+			fullScreenIframebenOpen("https://ssukla.github.io/mavi-ekran/index.html");
 		}
 	});	
 	
@@ -389,7 +389,7 @@ function updateUI() {
 }
 var nth = 3;
 var songLength = 0;
-var audio = new Audio('https://ssukla.github.io/windows-xp/songs/High-Quality%20Bass%20Music%20-%20Free%20Listening%20on%20SoundCloud.mp3');
+var audio = new Audio('/songs/High-Quality%20Bass%20Music%20-%20Free%20Listening%20on%20SoundCloud.mp3');
 function playSound(meik) {
 	audio = new Audio('songs/' + meik);
 	audio.play();
