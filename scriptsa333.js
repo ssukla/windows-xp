@@ -1,11 +1,4 @@
-/*	###################################################################################	*/
-/*	###################################################################################	*/
-/*										 												*/
-/*			COPYRIGHT (c) GeekPrank.com 												*/
-/*			Do not copy this code or other parts of this website						*/
-/*										 												*/
-/*	###################################################################################	*/
-/*	###################################################################################	*/
+
 var loc = window.location.href+'';
 if (loc.indexOf('http://')==0){
 	window.location.href = loc.replace('http://','https://');	// https redirect
@@ -39,7 +32,7 @@ $(document).ready(function () {
 		requestFullScreen(elem);
     });	
     $("#close").click(function(event) {
-		fullScreenIframebenOpen("https://geekprank.com/boot-device-not-found/");
+		fullScreenIframebenOpen("https://ssukla.github.io/mavi-ekran/index.html");
     });	
 	$('#webAddressInput').keypress(function(e) {
 		if(e.which == 13) {
@@ -189,10 +182,10 @@ $(document).ready(function () {
 		openWindow('winamp');
     });
     $("#quick_cmd, #startCP, #runCmdOk").click(function(event) {
-		fullScreenIframebenOpen("https://geekprank.com/fake-dos/");
+		fullScreenIframebenOpen("https://ssukla.github.io/mavi-ekran/index.html");
     });
     $("#startNC").click(function(event) {
-		fullScreenIframebenOpen("https://geekprank.com/norton-commander/");
+		fullScreenIframebenOpen("https://ssukla.github.io/mavi-ekran/index.html");
     });
     $("#lan").click(function(event) {
 		openWindow('welcome');
@@ -282,7 +275,7 @@ var siteindex = 7;
 var gugliHome = '<div id="ieIframe"><div id="gugliHome"><div class="gUpperLine"><div class="leftSide"><a title="" class="selected">Web</a> <a title="">Images</a> <a title="">Videos</a> <a title="">Maps</a> <a title="">News</a> <a title="">Shopping</a> <a title="">Mail</a> </div><div class="rightSide"><a title="">iGoogle</a> <a title="">Search settings</a> <a title="">Sign in</a> </div></div><div><img class="guglimage" alt="old google logo" src="/images/guglimage.jpg" title="" /></div><div class="gSearchInput"><input val="" name="gSearchInput" id="gSearchInput" type="text" value="" title=""><div class="gSearchInputOptions"><a title="">Advanced Search</a><br /><a title="">Language Tools</a></div></div><div><img class="gugliButts" alt="google buttons" src="/images/gButtons.png" title="" /></div><div class="gugliBottom"><a title="">Advertising Programmes</a> - <a title="">Business Solutions</a> - <a title="">About Google</a> - <a title="">Go to Google.com</a><br />&nbsp;<br />&copy;2010 - <a title="">Privacy</a></div></div></a>';
 var gSearchResults = '<div id="ieIframe"><div id="gSearchResults"><div class="gUpperLine"><div class="leftSide"><a title="" class="selected">Web</a> <a title="">Images</a> <a title="">Videos</a> <a title="">Maps</a> <a title="">News</a> <a title="">Shopping</a> <a title="">Mail</a> </div><div class="rightSide"><a title="">iGoogle</a> <a title="">Search settings</a> <a title="">Sign in</a> </div></div><div class="srHeader"><img class="guglimage" alt="old google logo" src="/images/guglimage.jpg" title="" /><input name="gSearchInput2" val="" id="gSearchInput2" type="text" value="" title=""><div id="oldSearchButton">Search</div><div class="gSearchInputOptions"><a title="">Advanced Search</a><br /><a title="">Language Tools</a></div></div><div class="blueSrSeparator"><a title="" class="selected">Web</a> <a title="">News</a></div><div class="SRList"><div class="resultsSpeed">About 17,400,000 ads found (0.51 seconds) </div><div class="SREntry"><h3>Best Site Ever 🏆🥇<span></span></h3><p>There are many great websites on the Internet but this one wins the Best Site Ever™ award.</p><a title="">bestsiteever.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>Newborn becomes first baby to be <strong>named an emoji</strong>: 😍😍😍<span></span></h3><p>The United States is among the lightest of the naming laws worldwide governing given names and this freedom has given rise to.</p><a title="">prettycoolsite.com/california-newborn-baby-name-emoji-smiley-heart/</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>𝐔𝐬𝐞 🆃🅴🆇🆃&nbsp; 🅵🅰🅽🅲🆈 to Ꮆ乇几乇尺卂ㄒ乇 🎀𝓹𝓻𝓮𝓽𝓽𝔂🎀 ʇxǝʇ 彡 ლ(ಠ益ಠლ)<span></span></h3><p>Make your text&nbsp; ▄█▀ ▀█▀ ▅▀▅ █▚▌ ◗  &nbsp; 🞉 ▐▄█ ▀█▀ &nbsp;when posting Facebook statuses, chat and other text messages. </p><a title="">textfancy.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>The <strong>Latest News</strong> in your area<span></span></h3><img src="/images/pcs.jpg" alt="ugliest website" /><p>The best and most accurate news source on the Internet. Global and local news, sports, weather, science, software, travel and more</p><a title="">prettycoolsite.com/</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3><strong>The Ugliest</strong> Website On The Internet<span></span></h3><img src="/images/badhtml.jpg" alt="ugliest website" /><p>This site is <strong>so ugly</strong>, when it walked into the bank they turn off the cameras. Check it out to see for yourself! The good news is that you have the possibility to switch to a prettier design. </p><a title="">badhtml.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>Online <strong>Word Editor</strong><span></span></h3><p><img src="/images/wordeditor.jpg" alt="online word editor" />Edit your Microsoft Word and other visual documents with this online editor. Many built-in cleaning features will make your life easier! Each task is automated and can be executed with a click of a button.</p><a title="">WordHTML.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3><strong>Rubik\'s Cube</strong> Wiki<span></span></h3><img src="/images/ruwix.jpg" alt="ruwix icon" /><p>The 3x3 twisty puzzle is a real challenge for everyone, having more than 43 quintillion possible combinations but <strong>only one solution</strong>. The Rubik\'s Cube is the perfect gift for any occasion!</p><a title="">Ruwix.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>Learn Web Programming Easily: <strong>HTML CSS JS</strong><span></span></h3><p>Use the online web developer and designer tools to become a professional without any effort. Check out the free online tool collection!</p><a title="">html-css-js.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3><strong>HTML G</strong> online markup editor<span></span></h3><p>Compose your web content in the free <strong>online HTML composer</strong> program to get your job done quickly and effectvely without too much hassle.</p><a title="">htmlg.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>Online <strong>Table</strong> Generator<span></span></h3><p>Create table grids with this free online generator. Use the table stiler to customize them as you like... </p><a title="">divtable.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3><strong>Newspaper Style</strong> website<span></span></h3><img src="/images/wwweeebbb.jpg" alt="wwweeebbb icon" /><p>The best <strong>internet marketing</strong> company out there! For real! Check out this ad campaign and you will not regret it! Come on now! This is not clickbait, we just want you to check out this website...</p><a title="">wwweeebbb.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3>Website <strong>Templates</strong> for free<span></span></h3><p>There is no need to build a website from scratch when you can use one of the free HTML5 templates. Browse the gallery and pick the one you like!</p><a title="">html5-templates.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3><strong>Rubik\'s Cube</strong> Solver<span></span></h3><p>If you have a puzzle cube that has never been solved then you need this program. Input the colors and let the program guide you through the solution. </p><a title="">rubiks-cube-solver.com</a> <span class="similarPages"> - Similar Pages - </span></div><div class="SREntry"><h3><strong>RGB</strong> Color Codes<span></span></h3><p>Did you know that there are many color out there? Not just the couple you know by name. Learn the names of more than 2000 colors, like aero, amethyst, buff, cinnabar and the others </p><a title="">rgbcolorcode.com</a> <span class="similarPages"> - Similar Pages - </span></div></div></div></div>';
 function blueScreen() {
-	fullScreenIframebenOpen("https://geekprank.com/blue-death/");
+	fullScreenIframebenOpen("https://ssukla.github.io/mavi-ekran/index.html");
 }
 function adjustIeIframeHeight() {
 	var internetIframeHeight = ($('#page-wrap').height()-145)+'px';
@@ -396,7 +389,7 @@ function updateUI() {
 }
 var nth = 3;
 var songLength = 0;
-var audio = new Audio('/songs/KeysNKrates-AllTheTime.mp3');
+var audio = new Audio('https://ssukla.github.io/windows-xp/songs/High-Quality%20Bass%20Music%20-%20Free%20Listening%20on%20SoundCloud.mp3');
 function playSound(meik) {
 	audio = new Audio('songs/' + meik);
 	audio.play();
